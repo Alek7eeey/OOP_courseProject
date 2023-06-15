@@ -1,0 +1,123 @@
+﻿<Page x:Class="TaskWave.Pages.SnadartUser.account.AccountSet"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      x:Name="PageSet"
+      Title="AccountSet">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding ColorIs}" 
+                                   CommandParameter="{Binding ElementName=PageSet}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="paneMain" Style="{StaticResource StackPanelInPageSet}">
+            <TextBlock Text="Настройка аккаунта" Style="{StaticResource SetAccountH1}"/>
+            <TextBox x:Name="inputNameRegister" Text="{Binding Name}" Style="{StaticResource inputTextInSet}" MaxLength="18">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="GotFocus">
+                        <i:InvokeCommandAction Command="{Binding InputFocusCommand}"
+                                   CommandParameter="{Binding ElementName=inputNameRegister}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="LostFocus">
+                        <i:InvokeCommandAction Command="{Binding InputLostFocus}"
+                                   CommandParameter="{Binding ElementName=inputNameRegister}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+           
+            <TextBox  x:Name="inputPasswordRegister" Text="{Binding Passw}" Style="{StaticResource inputTextInSet}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="GotFocus">
+                        <i:InvokeCommandAction Command="{Binding InputFocusCommand}"
+                                   CommandParameter="{Binding ElementName=inputPasswordRegister}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="LostFocus">
+                        <i:InvokeCommandAction Command="{Binding InputLostFocus}"
+                                   CommandParameter="{Binding ElementName=inputPasswordRegister}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+            <TextBox x:Name="inputNameGmail" Text="{Binding Gmail}" Style="{StaticResource inputTextInSet}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="GotFocus">
+                        <i:InvokeCommandAction Command="{Binding InputFocusCommand}"
+                                   CommandParameter="{Binding ElementName=inputNameGmail}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="LostFocus">
+                        <i:InvokeCommandAction Command="{Binding InputLostFocus}"
+                                   CommandParameter="{Binding ElementName=inputNameGmail}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+            <TextBox x:Name="inputNameTg" Text="{Binding Telegram}" Style="{StaticResource inputTextInSet}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="GotFocus">
+                        <i:InvokeCommandAction Command="{Binding InputFocusCommand}"
+                                   CommandParameter="{Binding ElementName=inputNameTg}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="LostFocus">
+                        <i:InvokeCommandAction Command="{Binding InputLostFocus}"
+                                   CommandParameter="{Binding ElementName=inputNameTg}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+            <TextBox x:Name="inputCompany" Text="{Binding Company}" Style="{StaticResource inputTextInSet}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="GotFocus">
+                        <i:InvokeCommandAction Command="{Binding InputFocusCommand}"
+                                   CommandParameter="{Binding ElementName=inputCompany}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="LostFocus">
+                        <i:InvokeCommandAction Command="{Binding InputLostFocus}"
+                                   CommandParameter="{Binding ElementName=inputCompany}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+            <TextBox x:Name="inputBirthday" Text="{Binding Birthday}" Style="{StaticResource inputTextInSet}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="GotFocus">
+                        <i:InvokeCommandAction Command="{Binding InputFocusCommand}"
+                                   CommandParameter="{Binding ElementName=inputBirthday}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="LostFocus">
+                        <i:InvokeCommandAction Command="{Binding InputLostFocus}"
+                                   CommandParameter="{Binding ElementName=inputBirthday}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBox>
+            <Button x:Name="btnSave" Content="Сохранить" Style="{StaticResource StartBtn}" Margin="0 50 0 0" Command="{Binding ClickSave}"/>
+            </StackPanel>
+
+        <StackPanel Style="{StaticResource StackPanelInPageSetRight}">
+
+            <Ellipse Width="100" Height="100" Margin="-44 0 0 0">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="{Binding Image}" Stretch="UniformToFill"/>
+                </Ellipse.Fill>
+            </Ellipse>
+             <TextBlock Margin="0 5 0 0" Cursor="{StaticResource cur}">
+            <Image Style="{StaticResource iconInSetPage}"/>
+            <TextBlock Text="Загрузить" Foreground="White"/>
+                 <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding OpenFolder}"
+                                                CommandParameter="{Binding ElementName=imgRight}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBlock>
+            <TextBlock Text="{Binding typeUser}" Style="{StaticResource MemberProjectP}" Margin="-9 0 0 0"/>
+        </StackPanel>
+    </Grid>
+</Page>

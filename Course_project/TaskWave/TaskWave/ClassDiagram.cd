@@ -1,0 +1,913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TaskWave.Classes.activeUser" Collapsed="true">
+    <Position X="65" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Classes\activeUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.Converter" Collapsed="true">
+    <Position X="61.5" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Converter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.DocumentTask" Collapsed="true">
+    <Position X="61.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAgA=</HashCode>
+      <FileName>Classes\DocumentTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.Generator" Collapsed="true">
+    <Position X="63.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAQAAAAAQAAAAAAEAAAQAAAAA=</HashCode>
+      <FileName>Classes\Generator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.NavigationService" Collapsed="true">
+    <Position X="66.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAiAAACACgAQUAAAAAABAEAIAAAEARAAAAAAgQAAAEA=</HashCode>
+      <FileName>Classes\NavigationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.Notifications" Collapsed="true">
+    <Position X="65" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAIiA=</HashCode>
+      <FileName>Classes\Notifications.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.Projects" Collapsed="true">
+    <Position X="63.25" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIAAAAAAAAAIAAAAAAAEAANAAgAAAAQAAAAAoA=</HashCode>
+      <FileName>Classes\Projects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.PrPhoto" Collapsed="true">
+    <Position X="66.75" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAA=</HashCode>
+      <FileName>Classes\PrPhoto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.ReadyTask" Collapsed="true">
+    <Position X="63.25" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAICAAAAAAAEAAAIAAIAAAAAAgEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\ReadyTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.SendTasks" Collapsed="true">
+    <Position X="63.25" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAEAAAIAIIAAEAAAgEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\SendTasks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.TaskPhoto" Collapsed="true">
+    <Position X="61.5" Y="23" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAgAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\TaskPhoto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.TaskReadyPh" Collapsed="true">
+    <Position X="66.75" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAQAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\TaskReadyPh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.Tasks" Collapsed="true">
+    <Position X="66.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACIAAAAAEAAAIAAIAAAABAAMAAAEAAAQAAAAAoA=</HashCode>
+      <FileName>Classes\Tasks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Classes.User" Collapsed="true">
+    <Position X="61.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAACAIAAAACgAEAAFAAAAAAAAAgAAEgQ=</HashCode>
+      <FileName>Classes\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.AddCheckTask" Collapsed="true">
+    <Position X="57.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AddCheckTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.AddFieldForManagerCommand" Collapsed="true">
+    <Position X="59.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AddFieldForManagerCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.AddNotifCommand" Collapsed="true">
+    <Position X="57.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AddNotifCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.AddProjectsCommand" Collapsed="true">
+    <Position X="65" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AddProjectsCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.AddReadyTaskCommand" Collapsed="true">
+    <Position X="66.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AddReadyTaskCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.AddRequestRegister" Collapsed="true">
+    <Position X="66.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AddRequestRegister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.AddSendTask" Collapsed="true">
+    <Position X="68.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AddSendTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.AddTaskCommand" Collapsed="true">
+    <Position X="70.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AddTaskCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.AddTeamProjectCommand" Collapsed="true">
+    <Position X="59.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\AddTeamProjectCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.BackToAuth" Collapsed="true">
+    <Position X="63" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\BackToAuth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.ClickRegisterCommand" Collapsed="true">
+    <Position X="63" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ClickRegisterCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.ColorIs" Collapsed="true">
+    <Position X="59.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ColorIs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.ColorIsWhite" Collapsed="true">
+    <Position X="59.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ColorIsWhite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.ColorNavigate" Collapsed="true">
+    <Position X="61.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\ColorNavigate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandAcceptUser" Collapsed="true">
+    <Position X="65" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandAcceptUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandExit" Collapsed="true">
+    <Position X="65" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandExit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandNotAcceptUser" Collapsed="true">
+    <Position X="66.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandNotAcceptUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenAccountSet" Collapsed="true">
+    <Position X="66.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenAccountSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenCheckTask" Collapsed="true">
+    <Position X="68.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenCheckTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenCreatePr" Collapsed="true">
+    <Position X="70.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenCreatePr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenCreateTeamPr" Collapsed="true">
+    <Position X="61.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenCreateTeamPr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenListWithUsers" Collapsed="true">
+    <Position X="63" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenListWithUsers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenNotification" Collapsed="true">
+    <Position X="59.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenNotification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenPrADMIN" Collapsed="true">
+    <Position X="57.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenPrADMIN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenProject" Collapsed="true">
+    <Position X="59.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenReadyTask" Collapsed="true">
+    <Position X="63" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenReadyTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenReqestRegister" Collapsed="true">
+    <Position X="65" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenReqestRegister.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenSendTask" Collapsed="true">
+    <Position X="65" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenSendTask.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenTaskADMIN" Collapsed="true">
+    <Position X="66.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenTaskADMIN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenTasks" Collapsed="true">
+    <Position X="68.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenTasks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.CommandOpenTeamProject" Collapsed="true">
+    <Position X="68.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\CommandOpenTeamProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.DeleteNotifCommand" Collapsed="true">
+    <Position X="70.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\DeleteNotifCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.DeleteTaskCommand" Collapsed="true">
+    <Position X="63" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQACEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\DeleteTaskCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.InputFocusCommand" Collapsed="true">
+    <Position X="57.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\InputFocusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.InputFocusCommandWhite" Collapsed="true">
+    <Position X="61.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\InputFocusCommandWhite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.InputLostFocusCommand" Collapsed="true">
+    <Position X="57.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\InputLostFocusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.InputLostFocusCommandWhite" Collapsed="true">
+    <Position X="61.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\InputLostFocusCommandWhite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.LogInCommand" Collapsed="true">
+    <Position X="63" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\LogInCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.MyCommand" Collapsed="true">
+    <Position X="64" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MyCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Commands.MyUserCommand" Collapsed="true">
+    <Position X="65" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\MyUserCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.OpenPrCommand" Collapsed="true">
+    <Position X="66.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\OpenPrCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.OpenReadySendTaskCommand" Collapsed="true">
+    <Position X="68.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\OpenReadySendTaskCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.OpenStatCommand" Collapsed="true">
+    <Position X="68.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\OpenStatCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.OpenTaskCommand" Collapsed="true">
+    <Position X="70.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\OpenTaskCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.RegistrationCommand" Collapsed="true">
+    <Position X="61.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\RegistrationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.RemoveFieldManCommand" Collapsed="true">
+    <Position X="57.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\RemoveFieldManCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Commands.SaveUpdateCommand" Collapsed="true">
+    <Position X="61.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\SaveUpdateCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.DataBase.myContext" Collapsed="true">
+    <Position X="65" Y="22.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAUAAAgARAAAABABAEAACAAgAAgABAAAAAAA=</HashCode>
+      <FileName>DataBase\myContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.DataBase.NotificationRepository" Collapsed="true">
+    <Position X="66.75" Y="23" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAECAAAAAAAAAAAAABAAAgAAAAAAAA=</HashCode>
+      <FileName>DataBase\NotificationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.DataBase.ProjectRepository" Collapsed="true">
+    <Position X="65" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAACAAAAAAAAAAAAAAIAAABAAA=</HashCode>
+      <FileName>DataBase\ProjectRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.DataBase.TaskReadyRepository" Collapsed="true">
+    <Position X="65" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAACAAAAAAAAAAAAAAIAAABAAA=</HashCode>
+      <FileName>DataBase\TaskReadyRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.DataBase.TaskRepository" Collapsed="true">
+    <Position X="61.5" Y="24.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAACAAAAAAAAAAAAAAIAAABAAA=</HashCode>
+      <FileName>DataBase\TaskRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.DataBase.UserRepository" Collapsed="true">
+    <Position X="63.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAAAAFAAAAAAAABAAAAQAAAAAgAAAAAAAEAAA=</HashCode>
+      <FileName>DataBase\UserRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskWave.Forms.MainWinAdmin.MainWinAdmin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\MainWinAdmin\MainWinAdmin.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Forms.MainWinManager.MainWindowManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\MainWinManager\MainWindowManager.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Forms.MainWinUser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\MainWinUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Forms.ViewModelMainWinUser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="70" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQgCgAEKgBAQQgAAKABCDIQAggABABEAggAoEiIAYAA=</HashCode>
+      <FileName>Forms\ViewModelMainWinUser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Admin.PrList.PrList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Admin\PrList\PrList.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Admin.PrList.ViewModelPrList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Admin\PrList\ViewModelPrList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Admin.RequestRegister.RequestRegister" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="64.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Admin\RequestRegister\RequestRegister.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Admin.RequestRegister.ViewModelRequestRegister" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="64.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAkAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Pages\Admin\RequestRegister\ViewModelRequestRegister.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Admin.TasksList.TaskList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Admin\TasksList\TaskList.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Admin.TasksList.ViewModelTaskList" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Admin\TasksList\ViewModelTaskList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Admin.UsersList.ListWithUsers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Admin\UsersList\ListWithUsers.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Admin.UsersList.ViewModelUsers" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="64.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAEAAAAIAAgAIAAgAEAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Admin\UsersList\ViewModelUsers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Manager.CreateTeamProjects.CreatePart1.CreatePr" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Manager\CreateTeamProjects\CreatePart1\CreatePr.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Manager.CreateTeamProjects.CreatePart2.CreateTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Manager\CreateTeamProjects\CreatePart2\CreateTask.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Manager.CreateTeamProjects.ViewModelCreateTeamProject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GkACCCqAAhAiAiAAIAioDAQggAGFcAABAAQBBQBAUQA=</HashCode>
+      <FileName>Pages\Manager\CreateTeamProjects\ViewModelCreateTeamProject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Manager.SendTaskCheck.SendTaskCheck" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Manager\SendTaskCheck\SendTaskCheck.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Manager.SendTaskCheck.ViewModelSendTaskCheck" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="68.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EMACABAEAAAAAFAQIAAEAAAEwAAAAEAAAECQAQhAgAA=</HashCode>
+      <FileName>Pages\Manager\SendTaskCheck\ViewModelSendTaskCheck.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Manager.TaskForCorrect.CheckTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Manager\TaskForCorrect\CheckTask.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Manager.TaskForCorrect.ViewModelIsCorrectTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="68.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Manager\TaskForCorrect\ViewModelIsCorrectTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.account.AccountSet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\account\AccountSet.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.account.ViewModelSetAccount" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="70" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEACAwEAAAAEICAAICgEgAwAgACIERAAAAAQBAAAQIE=</HashCode>
+      <FileName>Pages\SnadartUser\account\ViewModelSetAccount.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.AddFiles.AddFiiles" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\AddFiles\AddFiiles.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.AddFiles.ViewModelAddFiles" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgAAACAAAAgAQMAAAAACAgAAAAEEAAAAFCABADAA=</HashCode>
+      <FileName>Pages\SnadartUser\AddFiles\ViewModelAddFiles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.CreateNewProj.CreateProjPart1.CreateNewProj" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="64.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\CreateNewProj\CreateProjPart1\CreateNewProj.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.CreateNewProj.ViewModelCreateNewProj" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GkACCCqAAhAiAiAAIAioDAQggAGFcAABAAQBBQBAUQA=</HashCode>
+      <FileName>Pages\SnadartUser\CreateNewProj\CreateProjPart1\ViewModelCreateNewProj.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.CreateNewProj.CreateProjPart2.CreateTaskInProj" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\CreateNewProj\CreateProjPart2\CreateTaskInProj.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.Images.Image" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\Images\Image.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.Images.ViewModelImage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACgAIAAAAAAAAQOAAAAAAAgAAAAAEAAAABCABADAA=</HashCode>
+      <FileName>Pages\SnadartUser\Images\ViewModelImage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.144" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.MyProject.MyProject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\MyProject\MyProject.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.MyProject.ViewModelProject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAgAgAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Pages\SnadartUser\MyProject\ViewModelProject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.MyTask.MyTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="68.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\MyTask\MyTask.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.MyTask.ViewModelTasks" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\MyTask\ViewModelTasks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.Notification.Notification" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\Notification\Notification.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.Notification.ViewModelNotification" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="70" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAgAAAAAAIAAA=</HashCode>
+      <FileName>Pages\SnadartUser\Notification\ViewModelNotification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.pageWithInfAboutMyProj.InfMyProjects" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="68.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\pageWithInfAboutMyProj\InfMyProjects.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.pageWithInfAboutMyProj.ViewModelInfMyProjects" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="64.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEACACECAAAACABAJAAAAgAAgEAAAAABAEIQABgABAA=</HashCode>
+      <FileName>Pages\SnadartUser\pageWithInfAboutMyProj\ViewModelInfMyProjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.pageWithInfAboutTask.InfTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="70" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\pageWithInfAboutTask\InfTask.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.pageWithInfAboutTask.ViewModelInfTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEACADgEAgAIQGAAMAAAAAAAgAIAAAIAAEAQBAhIQAQ=</HashCode>
+      <FileName>Pages\SnadartUser\pageWithInfAboutTask\ViewModelInfTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.Ready_SendTask.ReadyAndSendTaskInf" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="68.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\Ready&amp;SendTask\ReadyAndSendTaskInf.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.Ready_SendTask.ViewModelSend_ReadyTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="66.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEACABgEAAAAAEAQMAAAAAAAwAAAAEEAAEARAQhAAEA=</HashCode>
+      <FileName>Pages\SnadartUser\Ready&amp;SendTask\ViewModelSend&amp;ReadyTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.ReadyTask.ReadyTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\ReadyTask\ReadyTask.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.ReadyTask.ViewModelReadyTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="61.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\ReadyTask\ViewModelReadyTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.SendTask.SendTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="64.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\SendTask\SendTask.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.SendTask.ViewModelSendTask" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="68.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\SendTask\ViewModelSendTask.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.Stat.Statistic" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="70" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\Stat\Statistic.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.Stat.ViewModelStat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABACAAAQAAAAIAAAIAAAgAAAAAAAAAIAAAACAAA=</HashCode>
+      <FileName>Pages\SnadartUser\Stat\ViewModelStat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.TeamProjects.TeamProject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="68.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\SnadartUser\TeamProjects\TeamProject.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.SnadartUser.TeamProjects.ViewModelTeamProject" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAgAgAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Pages\SnadartUser\TeamProjects\ViewModelTeamProject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Authorization" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="64.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Pages\StartModel\Auth\Authorization.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.Registration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\StartModel\Register\Registration.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.StartModel.Auth.ViewModelAuth" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="57.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAEQCAAIAAAAAgAgACAABICAAAQAgAAUAA=</HashCode>
+      <FileName>Pages\StartModel\Auth\ViewModelAuth.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.Pages.StartModel.Register.RegistrManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\StartModel\Register\RegistrManager.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.273" />
+  </Class>
+  <Class Name="TaskWave.Pages.StartModel.Register.ViewModelRegister" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="63" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAEggAAAIAAAKAIIAgAgAQQgACiGAACBABQAAAAwYE=</HashCode>
+      <FileName>Pages\StartModel\Register\ViewModelRegister.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TaskWave.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="TaskWave.Pages.InterfaceViewModel">
+    <Position X="64.25" Y="15.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\AbstractClassViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

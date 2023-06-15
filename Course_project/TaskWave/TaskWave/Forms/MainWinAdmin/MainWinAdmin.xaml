@@ -1,0 +1,120 @@
+﻿<Window x:Class="TaskWave.Forms.MainWinAdmin.MainWinAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskWave.Forms.MainWinAdmin" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        mc:Ignorable="d"
+         x:Name="mainWinMan"
+        Title="MainWindowManager" MinHeight="670" MinWidth="1000" Cursor="{StaticResource curSt}">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding CommandOpenTasks}"
+                                               CommandParameter="{Binding ElementName=MyTasks}"/>
+            <i:InvokeCommandAction Command="{Binding openListWithUsers}"
+                                               CommandParameter="{Binding ElementName=Users}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <Grid Background="#3F4B60">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="200" Width="200" MaxWidth="280"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Frame x:Name="FraimMainInAcc" Style="{StaticResource FraimStyle}" NavigationUIVisibility="Hidden" Cursor="{StaticResource curSt}"/>
+        <StackPanel Style="{StaticResource SPInMain}" Grid.RowSpan="2"/>
+        <StackPanel Style="{StaticResource SPInMain}" Grid.ColumnSpan="2"/>
+        <TextBlock Text="TaskWave" Style="{StaticResource NameTaskWave}" FontFamily="{StaticResource OxaniumRegular}"/>
+
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5 0 0 0">
+            <Ellipse Width="30" Height="30" Margin="0 0 0 -5" VerticalAlignment="Center" HorizontalAlignment="Left">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name="imgBrush" ImageSource="{Binding Image}" Stretch="UniformToFill"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            
+            <TextBlock x:Name="NameBl" Style="{StaticResource nameAcc}" Text="{Binding Name, Mode=TwoWay}"/>
+            <Image Source="/Forms/img/settings.png" Style="{StaticResource IconSet}">
+                   <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding CommandOpenAccountSet}"
+                                               CommandParameter="{Binding ElementName=avatar}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Image>
+        </TextBlock>
+
+        <StackPanel Margin ="4 15 0 0 " Grid.Row="2" Grid.Column="0" >
+            <TextBlock Margin="0 10 0 0" TextWrapping="Wrap" Cursor="{StaticResource cur}" >
+                <Image Style="{StaticResource IconNearMenu}" Source="/Forms/MainWinAdmin/users-64.png" Stretch="Fill"/>
+                <TextBlock x:Name="Users" Text="Список пользователей" Style="{StaticResource MenuText}"/>
+                 <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding openListWithUsers}"
+                                               CommandParameter="{Binding ElementName=Users}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBlock>
+
+            <TextBlock TextWrapping="Wrap" Margin="0 7 0 0" Cursor="{StaticResource cur}">
+                 <Image Source="/Forms/MainWinAdmin/list-of-parts-96.png" Style="{StaticResource IconNearMenu}"/>
+                 <TextBlock x:Name="pr"  Text="Список проектов" Style="{StaticResource MenuText}"/>
+                   <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding openPrAdmin}"
+                                               CommandParameter="{Binding ElementName=pr}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBlock>
+
+            <TextBlock TextWrapping="Wrap" Margin="0 7 0 0" Cursor="{StaticResource cur}">
+                 <Image Source="/Forms/MainWinAdmin/task.png" Style="{StaticResource IconNearMenu}"/>
+                 <TextBlock x:Name="tsk" Text="Список задач" Style="{StaticResource MenuText}"/>
+                   <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding OpenTaskAdmin}"
+                                               CommandParameter="{Binding ElementName=tsk}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </TextBlock>
+
+            <TextBlock TextWrapping="Wrap" Margin="0 7 0 0" Cursor="{StaticResource cur}">
+                <Image Source="/Forms/MainWinAdmin/registration-90.png" Style="{StaticResource IconNearMenu}"/>
+                <TextBlock x:Name="request" Text="Запросы на регистрацию" Style="{StaticResource MenuText}"/>
+                  <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding OpenRequestRegister}"
+                                               CommandParameter="{Binding ElementName=request}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers> 
+            </TextBlock>
+        </StackPanel>
+
+       
+        <StackPanel VerticalAlignment="Bottom" Margin="4 0 0 20" Grid.Row="2" Grid.Column="0">
+            <TextBlock x:Name="exit" Cursor="{StaticResource cur}">
+                 <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding ExitCommand}"
+                                               CommandParameter="{Binding ElementName=mainWinMan}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers> 
+            <Image Style="{StaticResource IconNearMenu}" Source="/Forms/img/exit.png" />
+            <TextBlock Text="Выйти из аккаунта " Style="{StaticResource MenuText}"/>
+            </TextBlock>
+        </StackPanel>
+
+        <GridSplitter Style="{StaticResource splitterGrid}"/>
+
+        <TextBlock Style="{StaticResource FooterWrap}">
+            <Image Source="/Forms/img/copyright-all-rights-reserved-96.png" Width="15"/>
+            <TextBlock Style="{StaticResource FooterTB}"/>     
+        </TextBlock>
+
+    </Grid>
+</Window>

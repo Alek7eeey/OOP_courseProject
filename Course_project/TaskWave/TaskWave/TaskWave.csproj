@@ -1,0 +1,157 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Font\Montserrat-Bold.ttf" />
+    <None Remove="Font\Montserrat-Light.ttf" />
+    <None Remove="Font\Montserrat-Medium.ttf" />
+    <None Remove="Font\Montserrat-Regular.ttf" />
+    <None Remove="Font\Montserrat-Thin.ttf" />
+    <None Remove="Font\Oxanium-Bold.ttf" />
+    <None Remove="Font\Oxanium-ExtraBold.ttf" />
+    <None Remove="Font\Oxanium-ExtraLight.ttf" />
+    <None Remove="Font\Oxanium-Light.ttf" />
+    <None Remove="Font\Oxanium-Medium.ttf" />
+    <None Remove="Font\Oxanium-Regular.ttf" />
+    <None Remove="Font\Oxanium-SemiBold.ttf" />
+    <None Remove="Forms\acc.png" />
+    <None Remove="Forms\add.png" />
+    <None Remove="Forms\book-registr.png" />
+    <None Remove="Forms\completed.png" />
+    <None Remove="Forms\copyright-all-rights-reserved-96.png" />
+    <None Remove="Forms\exit.png" />
+    <None Remove="Forms\groupProjects.png" />
+    <None Remove="Forms\img\laptop-alert-96.png" />
+    <None Remove="Forms\img\send.png" />
+    <None Remove="Forms\laptop-alert-96.png" />
+    <None Remove="Forms\logo.png" />
+    <None Remove="Forms\MainWinAdmin\list-of-parts-96.png" />
+    <None Remove="Forms\MainWinAdmin\registration-90.png" />
+    <None Remove="Forms\MainWinAdmin\task.png" />
+    <None Remove="Forms\MainWinAdmin\users-64.png" />
+    <None Remove="Forms\MainWinManager\check-500.png" />
+    <None Remove="Forms\notification-384.png" />
+    <None Remove="Forms\Projects.png" />
+    <None Remove="Forms\send.png" />
+    <None Remove="Forms\settings.png" />
+    <None Remove="Forms\statistic.png" />
+    <None Remove="Forms\task.png" />
+    <None Remove="Forms\tasks.png" />
+    <None Remove="logo.png" />
+    <None Remove="Pages\Auth.png" />
+    <None Remove="Pages\SnadartUser\account\avatar.png" />
+    <None Remove="Pages\SnadartUser\account\download-96.png" />
+    <None Remove="Pages\SnadartUser\account\img\download-96.png" />
+    <None Remove="Pages\SnadartUser\account\setAcc.png" />
+    <None Remove="Pages\SnadartUser\CreateNewProj\CreateProjPart2\edit-480.png" />
+    <None Remove="Pages\SnadartUser\pageWithInfAboutMyProj\edit-480.png" />
+    <None Remove="Pages\SnadartUser\pageWithInfAboutTask\attach-100.png" />
+    <None Remove="Pages\SnadartUser\pageWithInfAboutTask\download-96.png" />
+    <None Remove="Pages\SnadartUser\pageWithInfAboutTask\pdf-90.png" />
+    <None Remove="Pages\SnadartUser\pageWithInfAboutTask\txt-90.png" />
+    <None Remove="Pages\StartModel\Register\go-back-96.png" />
+    <None Remove="Pages\StartModel\Register\Register.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Font\Montserrat-Bold.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Font\Montserrat-Light.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Font\Montserrat-Medium.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Font\Montserrat-Regular.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Font\Montserrat-Thin.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+    <PackageReference Include="Firebase.Database" Version="1.0.0" />
+    <PackageReference Include="FirebaseAuthentication.net" Version="4.0.2" />
+    <PackageReference Include="FirebaseDatabase.net" Version="4.2.0" />
+    <PackageReference Include="FireSharp" Version="2.0.4" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MailKit" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="System.Windows.Interactivity.WPF" Version="2.0.20525" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Font\Oxanium-Bold.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Font\Oxanium-ExtraBold.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Font\Oxanium-ExtraLight.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Font\Oxanium-Light.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Font\Oxanium-Medium.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Font\Oxanium-Regular.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Font\Oxanium-SemiBold.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Forms\book-registr.png" />
+    <Resource Include="Forms\img\acc.png" />
+    <Resource Include="Forms\img\add.png" />
+    <Resource Include="Forms\img\completed.png" />
+    <Resource Include="Forms\img\copyright-all-rights-reserved-96.png" />
+    <Resource Include="Forms\img\exit.png" />
+    <Resource Include="Forms\img\groupProjects.png" />
+    <Resource Include="Forms\img\laptop-alert-96.png" />
+    <Resource Include="Forms\img\notification-384.png" />
+    <Resource Include="Forms\img\Projects.png" />
+    <Resource Include="Forms\img\send.png" />
+    <Resource Include="Forms\img\settings.png" />
+    <Resource Include="Forms\img\statistic.png" />
+    <Resource Include="Forms\img\task.png" />
+    <Resource Include="Forms\img\tasks.png" />
+    <Resource Include="Forms\logo.png" />
+    <Resource Include="Forms\MainWinAdmin\list-of-parts-96.png" />
+    <Resource Include="Forms\MainWinAdmin\registration-90.png" />
+    <Resource Include="Forms\MainWinAdmin\task.png" />
+    <Resource Include="Forms\MainWinAdmin\users-64.png" />
+    <Resource Include="Forms\MainWinManager\check-500.png" />
+    <Resource Include="logo.png" />
+    <Resource Include="Pages\img\Auth.png" />
+    <Resource Include="Pages\img\go-back-96.png" />
+    <Resource Include="Pages\SnadartUser\account\img\avatar.png" />
+    <Resource Include="Pages\SnadartUser\account\img\download-96.png" />
+    <Resource Include="Pages\SnadartUser\account\setAcc.png" />
+    <Resource Include="Pages\SnadartUser\CreateNewProj\CreateProjPart2\edit-480.png" />
+    <Resource Include="Pages\SnadartUser\pageWithInfAboutMyProj\edit-480.png" />
+    <Resource Include="Pages\SnadartUser\pageWithInfAboutTask\attach-100.png" />
+    <Resource Include="Pages\SnadartUser\pageWithInfAboutTask\download-96.png" />
+    <Resource Include="Pages\SnadartUser\pageWithInfAboutTask\pdf-90.png" />
+    <Resource Include="Pages\SnadartUser\pageWithInfAboutTask\txt-90.png" />
+    <Resource Include="Pages\StartModel\Register\Register.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\Новая папка\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+  //var bitmapImage = new BitmapImage(new Uri("D:\\studing\\4_semestr\\Course_project\\image\\avatar.png"));
+            //byte[] imageBytes;
+            //using (MemoryStream ms = new MemoryStream())
+            //{
+            //    PngBitmapEncoder encoder = new PngBitmapEncoder();
+            //    encoder.Frames.Add(BitmapFrame.Create(bitmapImage));
+            //    encoder.Save(ms);
+            //    imageBytes = ms.ToArray();
+            //}
+
+            //TaskPhoto ph = new();
+            //ph.Data = imageBytes;
+            //List<TaskPhoto> photos = new List<TaskPhoto>() { ph };
+
+            //Classes.Projects pr = new();
+            //pr.name = "Сделать сайт";
+            //pr.description = "Здравствуйте! У нас есть новая задача, которую необходимо выполнить. Мы хотим создать страницу welcome.html, которая будет являться стартовой страницей нашего веб-сайта.\r\nВам необходимо написать HTML-код для этой страницы, который будет содержать следующие элементы:\r\nЗаголовок страницы (title) - должен содержать текст \"Welcome Page\".\r\nМетатеги (meta) - необходимо указать кодировку (charset) и масштабирование (viewport) для страницы.\r\nСтили (style) - необходимо подключить файл со стилями, который содержит оформление для элементов на странице.\r\nШапка (header) - должна содержать заголовок (h1) с текстом \"Welcome to My Website\" и навигационное меню (nav) с тремя пунктами (li) - About, Services и Contact. Также в шапке должна быть форма поиска (form) с полем для ввода текста (input) и кнопкой (button).\r\nОсновной контент (main) - должен содержать разделы (section) с заголовками (h2) и текстом (p) о нашей компании и услугах, которые мы предоставляем.\r\nПодвал (footer) - должен содержать копирайт (copyright).\r\nПожалуйста, убедитесь, что весь код соответствует стандартам HTML5 и он должен быть доступен на любом устройстве и любом браузере. Код должен быть хорошо отформатирован и легко читаем. Если у вас есть какие-либо вопросы, не стесняйтесь обратиться за помощью. Ждем от вас готовый код страницы welcome.html в ближайшее время.";
+            //pr.dateTo = DateTime.Parse("11-09-2023");
+            //pr.dateOt = DateTime.Parse("09-09-2033");
+
+            //pr.tasks = new List<Tasks>()
+            //{
+            //    new Classes.Tasks("Сделать модуль 1", "Напишите header и footer для exam.html", DateTime.Parse("12-04-2023"), DateTime.Parse("12-04-2023"))
+            //};
+
+            myContext context = new myContext();
+            //context.Database.EnsureCreated();
+            //context.projects.Add(pr);
+            //context.SaveChanges();
+
+            Classes.NavigationService.panelTask.Children.Add(Classes.Generator.createBlockTask("Написать HTML-код для страницы welcome.html", DateTime.Parse("12-04-2023"), DateTime.Parse("12-04-2023")));
+
+            foreach (var p in context.tasks)
+            {
+                Classes.NavigationService.panelTask.Children.Add(Classes.Generator.createBlockTask(p.name, p.dateOt, p.dateTo));
+            }

@@ -1,0 +1,50 @@
+  IFirebaseConfig ifc = new FirebaseConfig()
+        {
+            AuthSecret = "Iehi9CWqd4eICG9fgX6rv0UiyL5PpojfYM0uc36v",
+            BasePath = "https://taskwave-896e6-default-rtdb.firebaseio.com/"
+        };
+
+        public Authorization()
+        {
+            InitializeComponent();
+            IFirebaseClient client = new FireSharp.FirebaseClient(ifc);
+            //getInfFromDB(client);
+            var data = new
+            {
+                Name = "John",
+                Age = 30,
+                Email = "john@example.com"
+            };
+           
+            //getInfFromDB(client, data);
+        }
+
+        public async void getInfFromDB(IFirebaseClient client, object data)
+        {
+            FirebaseResponse response = await client.SetAsync("Users/1", data);
+            //FirebaseResponse response = await client.GetAsync("/Name");
+            //string data = response.Body;
+            //MessageBox.Show(data);
+        }
+
+        private async void InputBtn_Click(object sender, RoutedEventArgs e)
+        {
+            IFirebaseClient client = new FireSharp.FirebaseClient(ifc);
+            FirebaseResponse response = await client.GetAsync("users/1");
+            string responseBody = response.Body;
+
+            if (!string.IsNullOrEmpty(responseBody))
+            {
+                dynamic data = JsonConvert.DeserializeObject(responseBody);
+                string name = data.Name;
+                int age = data.Age;
+                string email = data.Email;
+
+                // Делайте что-то с полученными данными
+            }
+            else
+            {
+                MessageBox.Show("nooo");
+            }
+
+        }

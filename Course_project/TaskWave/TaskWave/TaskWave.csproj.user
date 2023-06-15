@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Forms\MainWinAdmin\MainWinAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\MainWinManager\MainWindowManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forms\MainWinUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Admin\PrList\PrList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Admin\RequestRegister\RequestRegister.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Admin\TasksList\TaskList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Admin\UsersList\ListWithUsers.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Manager\CreateTeamProjects\CreatePart1\CreatePr.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Manager\CreateTeamProjects\CreatePart2\CreateTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Manager\SendTaskCheck\SendTaskCheck.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Manager\TaskForCorrect\CheckTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\AddFiles\AddFiiles.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\CreateNewProj\CreateProjPart1\CreateNewProj.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\CreateNewProj\CreateProjPart2\CreateTaskInProj.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\Images\Image.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\Notification\Notification.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\Ready&amp;SendTask\ReadyAndSendTaskInf.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\ReadyTask\ReadyTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\pageWithInfAboutMyProj\InfMyProjects.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\account\AccountSet.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\MyProject\MyProject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\MyTask\MyTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\pageWithInfAboutTask\InfTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\SendTask\SendTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\Stat\Statistic.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SnadartUser\TeamProjects\TeamProject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\StartModel\Auth\Authorization.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\StartModel\Register\Registration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\StartModel\Register\RegistrManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Forms\MainWinAdmin\MainWinAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\MainWinManager\MainWindowManager.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forms\MainWinUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Admin\PrList\PrList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Admin\RequestRegister\RequestRegister.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Admin\TasksList\TaskList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Admin\UsersList\ListWithUsers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Manager\CreateTeamProjects\CreatePart1\CreatePr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Manager\CreateTeamProjects\CreatePart2\CreateTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Manager\SendTaskCheck\SendTaskCheck.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Manager\TaskForCorrect\CheckTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\AddFiles\AddFiiles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\CreateNewProj\CreateProjPart1\CreateNewProj.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\CreateNewProj\CreateProjPart2\CreateTaskInProj.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\Images\Image.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\Notification\Notification.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\Ready&amp;SendTask\ReadyAndSendTaskInf.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\ReadyTask\ReadyTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\pageWithInfAboutMyProj\InfMyProjects.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\account\AccountSet.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\MyProject\MyProject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\MyTask\MyTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\pageWithInfAboutTask\InfTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\SendTask\SendTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\Stat\Statistic.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\SnadartUser\TeamProjects\TeamProject.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\StartModel\Auth\Authorization.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\StartModel\Register\Registration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\StartModel\Register\RegistrManager.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\StyleCreateProj.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\StyleMain.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\StylePageSetting.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\StylesStart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\StyleTask.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+﻿<Application x:Class="TaskWave.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TaskWave"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Style/StylesStart.xaml" />
+                <ResourceDictionary Source="Style/StyleMain.xaml" />
+                <ResourceDictionary Source="Style/StylePageSetting.xaml" />
+                <ResourceDictionary Source="Style/StyleTask.xaml" />
+                <ResourceDictionary Source="Style/StyleCreateProj.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <FontFamily x:Key="OxaniumMedium">Font/Oxanium-Medium.ttf#Oxanium medium</FontFamily>
+            <FontFamily x:Key="OxaniumRegular">Font/Oxanium-Regular.ttf#Oxanium regular</FontFamily>
+            <FontFamily x:Key="OxaniumBold">Font/Oxanium-Bold.ttf#Oxanium bold</FontFamily>
+            <FontFamily x:Key="Montserrat-Regular">Font/Montserrat-Regular.ttf#Montserrat-Regular</FontFamily>
+            <FontFamily x:Key="Montserrat-Light">Font/Montserrat-Light.ttf#Montserrat-Light</FontFamily>
+            <FontFamily x:Key="Montserrat-Medium">Font/Montserrat-Medium.ttf#Montserrat-Medium</FontFamily>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

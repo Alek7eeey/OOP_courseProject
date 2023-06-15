@@ -1,0 +1,5 @@
+StackPanel myStackPanel = this.FindName("RightPanelRegister") as StackPanel; // Находим StackPanel по имени
+TextBox myTextBox = new TextBox(); // Создаем новый TextBox
+myTextBox.Name = "newField"; // Устанавливаем имя для TextBox
+myTextBox.Style = (Style)FindResource("StyleStartInput"); // Применяем к нему стиль из ресурсов
+myStackPanel.Children.Add(myTextBox); // Добавляем TextBox в StackPanel
